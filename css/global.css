@@ -1,0 +1,11 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box {
+    box-sizing: border-box; /*IE 8, Opera */
+    -moz-box-sizing: border-box; /* Firefox, autres Gecko */
+    -webkit-box-sizing: border-box; /* Safari/Chrome, autres WebKit */
+ } 
+
+ 
