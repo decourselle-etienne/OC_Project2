@@ -1,0 +1,271 @@
+@media screen and (max-width: 992px) {
+
+    .main{
+        width: 100%;
+        align-items: center;
+    }
+
+/* Header configuration */
+
+    header {
+        display: flex;
+        flex-flow: row wrap;
+        align-content: flex-end;
+        justify-content: space-between;
+        height: 100px;
+        width: 100%;
+    }
+
+    header nav {
+        max-width: 40%;
+        min-width: 30%;
+    }
+
+/* Part 1 configuration */
+
+    .part1{
+        height: 400px;
+        width: 95%;
+    }
+
+
+/* Search Part */
+
+    .search-part{
+        gap: 50px;
+    }
+
+    .search_bar{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .research i {
+        display: none;
+    }
+
+/* Filters */
+
+    .filter_line {
+        gap: 20px;
+    }
+
+    .filter_choice {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 10px 10px;
+    }
+
+/* Information line */
+
+    .info{
+        flex-wrap: nowrap;
+        width: 100%;
+        gap: 20px;
+        
+    }
+
+    .info_circle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #f2f2f2;
+        border-radius: 20px;
+    }
+
+    .info p {
+        display: flex;
+        width: 100%;
+    }
+
+/* Research results */
+
+    .results {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 25px;
+    }   
+
+/* Hebergement & Popular zones */
+
+    .first {
+        width: 100%;
+        border-radius: 0px;
+        background-color: #ffffff;
+    }
+
+    .second {
+        width: 100%;
+        height: 500px;
+        border-radius: 0px;
+    }
+
+/* Popular part */
+
+    .popular {
+        width: 98%;
+    }
+
+    .column {
+        align-content: center;
+    }
+
+    .fiche-popular {
+        height: 120px;
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .img-popular-content {
+        width: 50%;
+    }
+
+    .text-popular {
+        width: 50%;
+        justify-content: space-around;
+    }
+
+    .info-popular h3 {
+        margin: 0px;
+        font-size: 18px;
+    }
+
+
+/* Hebergement part */
+
+    .hebergement-content h3{
+        font-size: 18px;
+    }
+
+    .hebergement-list {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .fiche-hebergement {
+        height: 170px;
+        width: 45%;
+    }
+
+    .fiche-hebergement:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .img-hebergement-content{
+        height: 100px;
+    }
+
+
+/*Réglage des images hébergement */
+
+    #cannebiere {
+        object-position: 0px -75px;
+    }
+
+    #port {
+        object-position: 0px -70px;
+    }
+
+    #mouettes {
+        object-position: 0px -70px;
+    }
+
+    #mer {
+        object-position: 0px -120px;
+    }
+
+    #panier {
+        object-position: 0px -20px;
+    }
+
+    #amina {
+        object-position: 0px -200px;
+    }
+
+/*Réglage des images popular */
+
+    #soleil {
+        width: 100%;
+    }
+
+    #eau {
+        width: 100%;
+    }
+
+/* Afficher plus */
+
+    .first .afficher-plus {
+        font-size: 18px;
+    }
+
+/*Activities part */
+
+    .activity-card-1{
+        width: 350px;
+        height: 350px;
+    }
+
+    .activity-image-contender-1 {
+        height: 300px;
+    }
+
+    .activity-card-2{
+        width: 350px;
+        height: 150px;
+    }
+
+    .activity-image-contender-2 {
+        height: 100px;
+    }
+
+    .activity-card-3{
+        width: 350px;
+        height: 150px;
+    }
+
+    .activity-image-contender-3 {
+        height: 100px;
+    }
+
+
+    .activity-card-4{
+        width: 350px;
+        height: 150px;
+    }
+
+    .activity-image-contender-4 {
+        height: 100px;
+    }
+
+    #fort-de-pomegue{
+        object-position: 0px -200px;
+    }
+
+    #frioul {
+        object-position: 0px -50px;
+    }
+
+    #parc-national {
+        height: 100%;
+        object-position: 0px 0px;
+    }
+
+    #notre-dame-garde {
+        object-position: 0px -20px;
+    }
+
+    #longchamp {
+        object-position: 0px -50px;
+    }
+
+
+/* Footer */
+
+    .footer-nav {
+        gap: 10%;
+    }
+
+}
