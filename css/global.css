@@ -82,7 +82,6 @@ body {
     header nav a {
         display: flex;
         text-decoration: none;
-        justify-items: space-around;
         align-items: flex-end;
         justify-content: center;
         flex-wrap: wrap;
@@ -244,7 +243,13 @@ body {
         height: 50px;
         gap: 0px 5px;
         overflow: visible;
-    }    
+    }
+    
+    .filter:hover {
+        background-color: #deebff;
+        color: #0065fc;
+        border: 2px solid #deebff;
+    }
 
     .filter_button{
         display: flex;
@@ -264,12 +269,6 @@ body {
     .filter i {
         display: flex;
         color: #0065fc;
-    }
-
-    .filter:active {
-        background-color: #deebff;
-        color: #0065fc;
-        border: 2px solid #deebff;
     }
 
     .filter h3 {
