@@ -18,13 +18,12 @@
 
     header nav {
         max-width: 40%;
-        min-width: 30%;
     }
 
 /* Part 1 configuration */
 
     .part1{
-        height: 400px;
+        height: 500px;
         width: 95%;
     }
 
@@ -32,7 +31,12 @@
 /* Search Part */
 
     .search-part{
-        gap: 50px;
+    height: 260px;    
+    justify-content: space-between;
+    }
+
+    .search {
+        width: 100%;
     }
 
     .search_bar{
@@ -95,12 +99,15 @@
         width: 100%;
         border-radius: 0px;
         background-color: #ffffff;
+        padding: 10px 0px;
     }
 
     .second {
         width: 100%;
         height: 500px;
         border-radius: 0px;
+        max-width: none;
+        padding: 10px 0px;
     }
 
 /* Popular part */
@@ -130,14 +137,14 @@
 
     .info-popular h3 {
         margin: 0px;
-        font-size: 18px;
+        font-size: 1.3rem;
     }
 
 
 /* Hebergement part */
 
     .hebergement-content h3{
-        font-size: 18px;
+        font-size: 1.3rem;
     }
 
     .hebergement-list {
@@ -198,13 +205,24 @@
 /* Afficher plus */
 
     .first .afficher-plus {
-        font-size: 18px;
+        font-size: 1.3rem;
     }
 
 /*Activities part */
 
+
+    .activities-part {
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: space-around;
+    }
+
+    .cards-2 {
+        width: 45%;
+    }
+
     .activity-card-1{
-        width: 350px;
+        width: 45%;
         height: 350px;
     }
 
@@ -213,7 +231,7 @@
     }
 
     .activity-card-2{
-        width: 350px;
+        width: 100%;
         height: 150px;
     }
 
@@ -222,7 +240,7 @@
     }
 
     .activity-card-3{
-        width: 350px;
+        width: 100%;
         height: 150px;
     }
 
@@ -232,7 +250,7 @@
 
 
     .activity-card-4{
-        width: 350px;
+        width: 100%;
         height: 150px;
     }
 
