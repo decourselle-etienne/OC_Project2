@@ -1,11 +1,11 @@
 @media screen and (max-width: 992px) {
 
-    .main{
+    .main {
         width: 100%;
         align-items: center;
     }
 
-/* Header configuration */
+    /* Header configuration */
 
     header {
         display: flex;
@@ -20,26 +20,26 @@
         max-width: 40%;
     }
 
-/* Part 1 configuration */
+    /* Part 1 configuration */
 
-    .part1{
+    .part1 {
         height: 500px;
         width: 95%;
     }
 
 
-/* Search Part */
+    /* Search Part */
 
-    .search-part{
-    height: 260px;    
-    justify-content: space-between;
+    .search-part {
+        height: 260px;
+        justify-content: space-between;
     }
 
     .search {
         width: 100%;
     }
 
-    .search_bar{
+    .search_bar {
         width: 100%;
         justify-content: center;
     }
@@ -48,7 +48,7 @@
         display: none;
     }
 
-/* Filters */
+    /* Filters */
 
     .filter_line {
         gap: 20px;
@@ -60,16 +60,16 @@
         gap: 10px 10px;
     }
 
-/* Information line */
+    /* Information line */
 
-    .info{
+    .info {
         flex-wrap: nowrap;
         width: 100%;
         gap: 20px;
-        
+
     }
 
-    .info_circle{
+    .info_circle {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -84,16 +84,16 @@
         width: 100%;
     }
 
-/* Research results */
+    /* Research results */
 
     .results {
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
         gap: 25px;
-    }   
+    }
 
-/* Hebergement & Popular zones */
+    /* Hebergement & Popular zones */
 
     .first {
         width: 100%;
@@ -110,7 +110,7 @@
         padding: 10px 0px;
     }
 
-/* Popular part */
+    /* Popular part */
 
     .popular {
         width: 98%;
@@ -123,7 +123,7 @@
     .fiche-popular {
         height: 120px;
         width: 80%;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
     .img-popular-content {
@@ -141,9 +141,9 @@
     }
 
 
-/* Hebergement part */
+    /* Hebergement part */
 
-    .hebergement-content h3{
+    .hebergement-content h3 {
         font-size: 1.3rem;
     }
 
@@ -158,15 +158,15 @@
     }
 
     .fiche-hebergement:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
 
-    .img-hebergement-content{
+    .img-hebergement-content {
         height: 100px;
     }
 
 
-/*Réglage des images hébergement */
+    /*Réglage des images hébergement */
 
     #cannebiere {
         object-position: 0px -75px;
@@ -192,7 +192,7 @@
         object-position: 0px -200px;
     }
 
-/*Réglage des images popular */
+    /*Réglage des images popular */
 
     #soleil {
         width: 100%;
@@ -202,13 +202,13 @@
         width: 100%;
     }
 
-/* Afficher plus */
+    /* Afficher plus */
 
     .first .afficher-plus {
         font-size: 1.3rem;
     }
 
-/*Activities part */
+    /*Activities part */
 
 
     .activities-part {
@@ -221,7 +221,7 @@
         width: 45%;
     }
 
-    .activity-card-1{
+    .activity-card-1 {
         width: 45%;
         height: 350px;
     }
@@ -230,7 +230,7 @@
         height: 300px;
     }
 
-    .activity-card-2{
+    .activity-card-2 {
         width: 100%;
         height: 150px;
     }
@@ -239,7 +239,7 @@
         height: 100px;
     }
 
-    .activity-card-3{
+    .activity-card-3 {
         width: 100%;
         height: 150px;
     }
@@ -249,7 +249,7 @@
     }
 
 
-    .activity-card-4{
+    .activity-card-4 {
         width: 100%;
         height: 150px;
     }
@@ -258,7 +258,7 @@
         height: 100px;
     }
 
-    #fort-de-pomegue{
+    #fort-de-pomegue {
         object-position: 0px -200px;
     }
 
@@ -280,7 +280,7 @@
     }
 
 
-/* Footer */
+    /* Footer */
 
     .footer-nav {
         gap: 10%;

@@ -18,7 +18,7 @@ body {
  .main{
      display: flex;
      flex-direction: column;
-     width: 85%;
+     width: 90%;
      gap: 30px;
      flex-wrap: wrap;
  }
@@ -88,6 +88,8 @@ body {
         height: 90%;
         width: 50%; 
         border-bottom: 5px solid transparent;
+        border-top: 3px solid transparent;
+
     }
 
     header nav a:hover {
@@ -261,7 +263,7 @@ body {
         color: #0065fc;
         border: 2px solid #deebff;
     }
-
+    
     .filter_button{
         display: flex;
         overflow: visible;
@@ -282,6 +284,15 @@ body {
         color: #0065fc;
     }
 
+    .filter:hover .filter_button {
+        background-color: #0065fc;
+        border: 2px solid #0065fc;
+    }
+
+    .filter:hover i {
+        color: #deebff;
+    }
+
     .filter h3 {
         margin-right: 10px;
     }
@@ -293,8 +304,6 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
-        width: 530px;
     }
 
     .info_circle{
@@ -305,11 +314,12 @@ body {
         height: 20px;
         border: 2px solid #f2f2f2;
         border-radius: 20px;
+        margin-right: 20px;
     }
 
     #info {
         color: #0065fc;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         font-weight: bold;
     }
 
@@ -721,7 +731,7 @@ body {
 
 #parc-national {
     height: 100%;
-    object-position: -250px 0px;
+    object-position: 0px 0px;
 }
 
 #notre-dame-garde {
@@ -750,7 +760,7 @@ footer {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: center;
-    width: 85%;
+    width: 90%;
     gap: 250px;
 }
 
